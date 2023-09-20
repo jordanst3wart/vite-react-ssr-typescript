@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import refreshScript from "./refresh-hack.js?raw";
+import refreshScript from "./refresh-hack-1?raw";
 
 interface HtmlProps {
   children: ReactNode;

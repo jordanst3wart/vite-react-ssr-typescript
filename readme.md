@@ -21,7 +21,7 @@ might hit that error, which cause Vite HMR stop working:
 It's because after SSR, the root node is considered as both `wasMounted` and
 `isMounted` by `react-refresh` [runtime script][rr]. So, `react-refresh` doesn't
 handle that root node. I rewrite [`vite-plugin-react` preamble][preamble] to
-work around that. See [`./src/refresh-hack.js`](./src/refresh-hack.js).
+work around that. See [`./src/refresh-hack.js`](src/refresh-hack.js).
 
 ### Production `bootstrapModules`
 
